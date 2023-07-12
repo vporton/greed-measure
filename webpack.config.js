@@ -28,11 +28,10 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
     },
     mode: 'development',
-    entry: './src/index.tsx',
     output: 
            {
               path: path.resolve(__dirname, 'dist'),
               filename:'main.js',
            },
-    plugins: [new HtmlWebpackPlugin({ template: './src/index.tsx' })],
+    // plugins: [new HtmlWebpackPlugin({ template: './src/index.tsx' })],
 };
