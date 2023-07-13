@@ -2,7 +2,7 @@
   "name": "greed",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://after-gospel.vporton.name/test-for-greed/",
+  "homepage": "/test-for-greed/",
   "dependencies": {
     "@types/node": "^16.18.10",
     "@types/react": "^18.0.26",

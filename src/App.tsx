@@ -25,8 +25,8 @@ function App() {
     } else if (!osa) {
       results += "You donate only to these who are explicitly told to donate to in the Bible.\n" +
         "You don't donate out of your own will to really help others. " +
-        "You are either donate in attempt to earn salvation or in attempt to get money back (as prosperity gospel teaches). " +
-        "You are likely going to the Hell";
+        "You either donate in attempt to earn salvation or in attempt to get money back (as prosperity gospel teaches). " +
+        "You are likely going to the Hell.";
     } else { // if (osa)
       results += "You are going to donate to the right cause. " +
         "I don't know whether you are going to the Hell or no, but remember that you cannot earn salvation by your deeds.";
@@ -44,7 +44,7 @@ function App() {
     <>
       <div className="container">
         <h1>Test for Greed and Salvation</h1>
-        <p>Pass the test for greed. Maybe, you are going to the Hell?</p>
+        <p>Pass the test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
         <div className="questions">
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
@@ -77,15 +77,14 @@ function App() {
               <p style={{display: osa ? 'none' : 'block'}}>
                 You are likely to be unsaved: After all, your heart is not moved by billions of people that remain stupid
                 without proper science.
-                Review <a target='_blank' rel="noreferrer" href="/2023/01/03/popular-economical-heresies/">economical heresies</a> that control your money.
                 Now (either for the first time, or refreshing your first salvation prayer)
                 make the decision that with help of God you will choose to do good deeds. Tell God that you are unable
                 to do good on your own, but need help of crucified Jesus Christ.
                 If you made the choice to do good deeds since now on, do the first good deed:
                 {" "}<a href="/donate-to-victor-portons-foundation/">Donate to the charity that is responsible for
                 ordered semicategory actions</a> to avoid all the people to remain stupid without knowledge of
-                ordered semicategory actions. If you told God that you since now do good deeds, but don't do the first deed,
-                God won't believe you.
+                ordered semicategory actions. <em>If you told God that you since now do good deeds, but don't do the first deed,
+                God won't believe you.</em>{" "}
                 You took the decision to do only good deeds as much as you can, with the help of crucified Jesus Christ?
                 If yes, since now you are apparently not anymore going to the Hell but to the Heaven.
               </p>
@@ -94,12 +93,16 @@ function App() {
                 Please <a href="/donate-to-victor-portons-foundation/">donate to the responsible charity</a> now.
                 Maybe, you are going to the Paradise, but only in the case if you understand that you cannot
                 do good on your own, but only with help of crucified Jesus Christ.
-                Please also review heresies popular in modern church:
-                {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2021/08/25/all-church-are-heretics-both-baptists-and-pentecostals/'>here</a> and
-                {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2023/01/03/popular-economical-heresies/'>here</a>.
               </p>
-              <p>If you want <em>biblical</em> arguments that you should donate namely to this charity,
-                <a href="https://after-gospel.vporton.name/2023/06/20/why-am-i-the-great-priest-of-israel-short-version/">see here</a>.</p>
+              <h2>Related Links</h2>
+              <ul>
+                <li>If you want <em>biblical</em> arguments that you should donate namely to this charity,
+                  {" "}<a href="https://after-gospel.vporton.name/2023/06/20/why-am-i-the-great-priest-of-israel-short-version/">see here</a>{" "}
+                  (a long text).</li>
+                <li>Review heresies popular in modern church:
+                {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2021/08/25/all-church-are-heretics-both-baptists-and-pentecostals/'>here</a> and
+                {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2023/01/03/popular-economical-heresies/'>here</a>.</li>
+              </ul>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
