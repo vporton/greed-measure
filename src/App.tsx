@@ -31,6 +31,17 @@ function App() {
       results += "You are going to donate to the right cause. " +
         "I don't know whether you are going to the Hell or no, but remember that you cannot earn salvation by your deeds.";
     }
+
+    if (process.env.NODE_ENV === 'production') {
+      (window as any).gtag('event', 'survey', {
+        localChurch: localChurch,
+        bigMinistry: bigMinistry,
+        hungry: hungry,
+        osa: osa,
+        neighborhood: neighborhood,
+      });
+    }
+    
     return results;
   }
   
