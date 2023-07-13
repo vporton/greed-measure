@@ -56,7 +56,9 @@ function App() {
       <div className="container">
         <h1>Test for Greed and Salvation</h1>
         <p>Pass the test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
+        <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
         <div className="questions">
+        <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
@@ -76,7 +78,7 @@ function App() {
             to use and develop further innovative thinking methods.</p>
           <p><label><input type="checkbox" checked={osa} onChange={e => setOsa(e.target.checked)}/> You are willing to donate for (re)publishing ordered semicategory actions</label></p>
           <p><label><input type="checkbox" checked={neighborhood} onChange={e => setNeighborhood(e.target.checked)}/> You donate to your local club or neighborhood projects</label></p>
-          <p><Button onClick={handleShow}>Finish the test</Button></p>
+          <p style={{marginBottom: '4px'}}><Button onClick={handleShow}>Finish the test</Button></p>
 
           <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
