@@ -60,12 +60,11 @@ function App() {
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
-          <p>Around 1880 there were discovered an abstract math object called <q>groups</q>{" "}
+          <p>Around 1880 there were discovered abstract math objects called <q>groups</q>{" "}
             (this is a math term and is unrelated to usage of the word <q>group</q> in ordinary English).
             During 20th-21th century the importance of groups was on rise. Now most of quantitative sciences rely
-            on the concept of groups. Now all the high-tech part of the economy relies on groups (without groups
-            we hardly would be able to discover quantum mechanics, and therefore would have no computers, smartphones,
-            and LCD displays).</p>
+            on the concept of groups. All the high-tech economy relies on groups (without groups we hardly would be able to discover
+            quantum mechanics, and therefore would have no computers, smartphones, and LCD displays).</p>
           <p>In 2019 there were discovered <q>ordered semicategory actions</q>. By all basic heuristic mathematical
             indications, ordered semicategory actions are as important as groups. But because ordered semicategory actions
             were discovered by an amateur (not a math professor), the texts related to them were published in a wrong
