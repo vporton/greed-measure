@@ -71,9 +71,8 @@ function App() {
             indications, ordered semicategory actions are as important as groups. But because ordered semicategory actions
             were discovered by an amateur (not a math professor), the texts related to them were published in a wrong
             way (basically, as a too long 400 pages article, not matching the length standards of scientific journals),
-            publishing ordered semicategory actions became a challenging task. As they are not officially published,
-            unlike what happened with group theory, mathematicians do not want to build new math based on
-            ordered semicategory actions.</p>
+            publishing ordered semicategory actions became a challenging task. Because they are not officially published,
+            mathematicians do not want to build new math based on ordered semicategory actions.</p>
           <p>Wrong publication of mathematics is essentially making mankind stupid, as it makes people unable
             to use and develop further innovative thinking methods.</p>
           <p><label><input type="checkbox" checked={osa} onChange={e => setOsa(e.target.checked)}/> You are willing to donate for (re)publishing ordered semicategory actions</label></p>
@@ -123,6 +122,7 @@ function App() {
             </Modal.Footer>
           </Modal>
         </div>
+        <p style={{marginTop: '1.5ex'}}><a href="/">Return to the site.</a></p>
       </div>
     </>
   )
