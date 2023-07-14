@@ -33,7 +33,7 @@ function App() {
     }
 
     if (process.env.NODE_ENV === 'production') {
-      (window as any).gtag('event', 'survey', {
+      (window as any).gtag('event', 'greed_survey', {
         localChurch: localChurch,
         bigMinistry: bigMinistry,
         hungry: hungry,
