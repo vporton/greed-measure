@@ -26,6 +26,7 @@ function App() {
       results += "You donate only to these who are explicitly told to donate to in the Bible.\n" +
         "You don't donate out of your own will to really help others. " +
         "You either donate in attempt to earn salvation or in attempt to get money back (as prosperity gospel teaches). " +
+        "If you are not doing this consciously, you may nevertheless subconsciously want to earn salvation. " +
         "You are likely going to the Hell.";
     } else { // if (osa)
       results += "You are going to donate to the right cause. " +
