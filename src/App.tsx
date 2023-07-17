@@ -13,6 +13,7 @@ function App() {
   const [hungry, setHungry] = useState(false);
   const [osa, setOsa] = useState(false);
   const [neighborhood, setNeighborhood] = useState(false);
+  const [wantMoney, setWantMoney] = useState(false);
 
   function testResults() {
     let results = "";
@@ -41,6 +42,7 @@ function App() {
         hungry: hungry,
         osa: osa,
         neighborhood: neighborhood,
+        wantMoney: wantMoney,
       });
     }
     
@@ -79,6 +81,7 @@ function App() {
             to use and develop further innovative thinking methods.</p>
           <p><label><input type="checkbox" checked={osa} onChange={e => setOsa(e.target.checked)}/> You are willing to donate for (re)publishing ordered semicategory actions</label></p>
           <p><label><input type="checkbox" checked={neighborhood} onChange={e => setNeighborhood(e.target.checked)}/> You donate to your local club or neighborhood projects</label></p>
+          <p><label><input type="checkbox" checked={wantMoney} onChange={e => setWantMoney(e.target.checked)}/> To want money is bad</label></p>
           <p style={{marginBottom: '4px'}}><Button onClick={handleShow}>Finish the test</Button></p>
 
           <Modal show={show} onHide={handleClose}>
@@ -110,6 +113,11 @@ function App() {
               <p>Jesus said (Mt. 25:45-46) <q>Verily I say to you, Inasmuch as ye did it not to one of the smallest of these, you did it not to me...
                 And these shall go away into everlasting punishment: but the righteous into life eternal.</q>{" "}
                 and our charity is one of the smallest: as of Jul 2023, only one person works here. That's a reason to help.</p>
+              <p style={{display: wantMoney ? 'block' : 'none'}}>
+                If you think that to want money is bad, then you are greedy, because you don't understand
+                1. that one may want money to help others; 2. that money are not only for superfluous luxuries but also
+                for good things such as food.
+              </p>
               <h2>Related Links</h2>
               <ul>
                 <li>If you want <em>biblical</em> arguments that you should donate namely to this charity,
