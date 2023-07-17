@@ -24,9 +24,10 @@ function App() {
         "Apparently you are very greedy and are going to the Hell.\n";
     } else if (!osa) {
       results += "You donate only to these who are explicitly told to donate to in the Bible.\n" +
+        "This is called in the Gospel to live by the law (rather than by grace).\n" +
         "You don't donate out of your own will to really help others. " +
         "You either donate in attempt to earn salvation or in attempt to get money back (as prosperity gospel teaches). " +
-        "If you are not doing this consciously, you may nevertheless subconsciously want to earn salvation. " +
+        "If you are not doing this consciously, you may nevertheless subconsciously try to earn salvation. " +
         "You are likely going to the Hell.";
     } else { // if (osa)
       results += "You are going to donate to the right cause. " +
@@ -106,6 +107,9 @@ function App() {
                 Maybe, you are going to the Paradise, but only in the case if you understand that you cannot
                 do good on your own, but only with help of crucified Jesus Christ.
               </p>
+              <p>Jesus said (Mt. 25:45-46) <q>Verily I say to you, Inasmuch as ye did it not to one of the smallest of these, you did it not to me...
+                And these shall go away into everlasting punishment: but the righteous into life eternal.</q>{" "}
+                and our charity is one of the smallest: as of Jul 2023, only one person works here. That's a reason to help.</p>
               <h2>Related Links</h2>
               <ul>
                 <li>If you want <em>biblical</em> arguments that you should donate namely to this charity,
