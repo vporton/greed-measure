@@ -26,6 +26,7 @@ function App() {
     } else if (!osa) {
       results += "You donate only to these who are explicitly told to donate to in the Bible.\n" +
         "This is called in the Gospel to live by the law (rather than by grace).\n" +
+        "The Bible says about itself \"letter kills\".\n" +
         "You don't donate out of your own will to really help others. " +
         "You either donate in attempt to earn salvation or in attempt to get money back (as prosperity gospel teaches). " +
         "If you are not doing this consciously, you may nevertheless subconsciously try to earn salvation. " +
