@@ -101,7 +101,9 @@ function App() {
                 make the decision that with help of God you will choose to do good deeds. Tell God that you are unable
                 to do good on your own, but need help of crucified Jesus Christ.
                 If you made the choice to do good deeds since now on ((Jam. 2:22)
-                {" "}<q>See you how faith wrought with his works, and by works was faith made perfect</q>), do the first good deed:
+                {" "}<q>See you how faith wrought with his works, and by works was faith made perfect</q>.
+                Salvation is by faith, but faith is so much couped with deeds that determining your faith is better done
+                by looking at your deeds than by asking biblical questions.), do the first good deed:
                 {" "}<a href="/donate-to-victor-portons-foundation/">Donate to the charity that is responsible for
                 ordered semicategory actions</a> to avoid all the people to remain stupid without knowledge of
                 ordered semicategory actions. <em>If you told God that you since now do good deeds, but don't do the first deed,
