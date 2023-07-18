@@ -95,14 +95,17 @@ function App() {
               <p style={{display: osa ? 'none' : 'block'}}>
                 You are likely to be unsaved: After all, your heart is not moved by billions of people that remain stupid
                 without proper science.
+                {" "}<em>Ordered semigroup actions are like as if they were specifically for testing greed (do you want to use your money
+                to change the world or no): a rather small sum of money can very much change the entire world.</em>{" "}
                 Now (either for the first time, or refreshing your first salvation prayer)
                 make the decision that with help of God you will choose to do good deeds. Tell God that you are unable
                 to do good on your own, but need help of crucified Jesus Christ.
-                If you made the choice to do good deeds since now on, do the first good deed:
+                If you made the choice to do good deeds since now on ((Jam. 2:22)
+                {" "}<q>See you how faith wrought with his works, and by works was faith made perfect</q>), do the first good deed:
                 {" "}<a href="/donate-to-victor-portons-foundation/">Donate to the charity that is responsible for
                 ordered semicategory actions</a> to avoid all the people to remain stupid without knowledge of
                 ordered semicategory actions. <em>If you told God that you since now do good deeds, but don't do the first deed,
-                God won't believe you.</em>{" "}
+                God won't believe you,</em> if you don't do good, it is a sure sign of some heresy.
                 You now decide you are against the <q>Hitler</q> (money loaded scientific publishers) or if you
                 are not against, then you are for Hitler.
                 You took the decision to do only good deeds as much as you can, with the help of crucified Jesus Christ,
@@ -129,12 +132,12 @@ function App() {
               </p>
               <h2>Related Links</h2>
               <ul>
+                <li>Review heresies popular in modern church:
+                  {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2021/08/25/all-church-are-heretics-both-baptists-and-pentecostals/'>here</a> and
+                  {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2023/01/03/popular-economical-heresies/'>here</a>.</li>
                 <li>If you want <em>biblical</em> arguments that you should donate namely to this charity,
                   {" "}<a href="https://after-gospel.vporton.name/2023/06/20/why-am-i-the-great-priest-of-israel-short-version/">see here</a>{" "}
                   (a long text).</li>
-                <li>Review heresies popular in modern church:
-                {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2021/08/25/all-church-are-heretics-both-baptists-and-pentecostals/'>here</a> and
-                {" "}<a target='_blank' rel="noreferrer" href='https://after-gospel.vporton.name/2023/01/03/popular-economical-heresies/'>here</a>.</li>
               </ul>
             </Modal.Body>
             <Modal.Footer>
