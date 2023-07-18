@@ -101,15 +101,22 @@ function App() {
                 ordered semicategory actions</a> to avoid all the people to remain stupid without knowledge of
                 ordered semicategory actions. <em>If you told God that you since now do good deeds, but don't do the first deed,
                 God won't believe you.</em>{" "}
-                You took the decision to do only good deeds as much as you can, with the help of crucified Jesus Christ?
+                You now decide you are against the <q>Hitler</q> (money loaded scientific publishers) or if you
+                are not against, then you are for Hitler.
+                You took the decision to do only good deeds as much as you can, with the help of crucified Jesus Christ,
+                that was crucified to help you do good?
                 If yes, since now you are apparently not anymore going to the Hell but to the Heaven.
+                Salvation is by faith in Jesus Christ who helps you to do good, that is when you believe
+                that good deeds that you planned will be accomplished with His help.
               </p>
               <p style={{display: osa ? 'block' : 'none'}}>
                 You did the right decision to donate for ordered semicategory actions.
                 Please <a href="/donate-to-victor-portons-foundation/">donate to the responsible charity</a> now.
-                Maybe, you are going to the Paradise, but only in the case if you understand that you cannot
-                do good on your own, but only with help of crucified Jesus Christ.
-              </p>
+                Publishing ordered semicategory actions is as important as to win a world war.
+                You now decide you are against the <q>Hitler</q> (money loaded scientific publishers) or if you
+                are not against, then you are for Hitler.</p>
+              <p style={{display: osa ? 'block' : 'none'}}>Maybe, you are going to the Paradise, but only in the case if you understand that you cannot
+                do good on your own, but only with help of crucified Jesus Christ.</p>
               <p>Jesus said (Mt. 25:45-46) <q>Verily I say to you, Inasmuch as ye did it not to one of the smallest of these, you did it not to me...
                 And these shall go away into everlasting punishment: but the righteous into life eternal.</q>{" "}
                 and our charity is one of the smallest: as of Jul 2023, only one person works here. That's a reason to help.</p>
