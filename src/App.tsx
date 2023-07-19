@@ -185,7 +185,7 @@ function App() {
                 you can lose salvation of some period of your life. Test and renew your salvation often, don't forget about the grace.
                 If you, for example, don't feed a hungry person, it is a sign that you lost salvation for this period of your life.</p>
               <p><a href="/donate-to-victor-portons-foundation/">Donate for Bible study</a> (tax-deductible) by the man who received
-                the final revelation on whether salvation can be lost and whom God showed in a nightdream that he will preach in
+                the final revelation on whether salvation can be lost and to whom God showed in a nightdream that he will preach in
                 {" "}<a className="in-dialog-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a>.</p>
             </Modal.Body>
             <Modal.Footer>
