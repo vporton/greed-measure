@@ -77,7 +77,8 @@ function App() {
         <div className="questions">
         <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
-          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate for Bible study</a> (tax-deductible) by the man whom God showed in a nightdream that he will preach in
+          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
+            {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man whom God showed in a nightdream that he will preach in
             {" "}<a className="my-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a></small></p>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
@@ -184,7 +185,8 @@ function App() {
                 {" "}<q>work out your own salvation with fear and trembling</q>, because at any moment if your brain wents wrong,
                 you can lose salvation of some period of your life. Test and renew your salvation often, don't forget about the grace.
                 If you, for example, don't feed a hungry person, it is a sign that you lost salvation for this period of your life.</p>
-              <p><a href="/donate-to-victor-portons-foundation/">Donate for Bible study</a> (tax-deductible) by the man who received
+              <p><strong><a href="/donate-to-victor-portons-foundation/">Donate</a></strong> (tax-deductible) for
+                {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man who received
                 the final revelation on whether salvation can be lost and to whom God showed in a nightdream that he will preach in
                 {" "}<a className="in-dialog-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a>.</p>
             </Modal.Body>
