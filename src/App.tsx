@@ -175,7 +175,7 @@ function App() {
                 may damage conscience in the brain. Accordingly the Bible, conscience belongs to the brain.
                 Soul is, apparently, a warranty or insurance that God will restore a human in sound mind on the resurrection of dead.
                 So, just because of a hot iron touching your head, you can lose conscience and... lose salvation?
-                No, we have a warranty from God, that whatever happends with our body (and the brain), He will resurrect us.
+                No, we have a warranty from God, that whatever happens with our body (and the brain), He will resurrect us.
                 But if your brain behaves badly, we can lose a part of our memory in resurrection of the dead
                 (lose salvation for a certain period of the life). Therefore, (Phil. 2:12)
                 {" "}<q>work out your own salvation with fear and trembling</q>, because at any moment if your brain wents wrong,
