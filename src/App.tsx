@@ -58,6 +58,9 @@ function App() {
     setResults(testResults());
     setShow(true);
   };
+  const handleShow2 = () => {
+    setShow2(true);
+  };
 
   useEffect(
     () => document.querySelectorAll('.my-lightbox-toggle').forEach(el => el.addEventListener('click', Lightbox.initialize)),
@@ -70,7 +73,7 @@ function App() {
         <h1>Test for Greed and Salvation</h1>
         <p>Pass a short (2-3 min) test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
-        <p><Button onClick={() => setShow2(true)}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
+        <p><Button onClick={handleShow2}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
         <div className="questions">
         <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
@@ -160,7 +163,7 @@ function App() {
               </Button>
             </Modal.Footer>
           </Modal>
-          <Modal show={show2} onHide={handleClose2}>
+          <Modal show={show2} onHide={handleClose2} onShow={() => document.querySelectorAll('.in-dialog-lightbox-toggle').forEach(el => el.addEventListener('click', Lightbox.initialize))}>
             <Modal.Header closeButton>
               <Modal.Title>Once Saved, Always Saved?</Modal.Title>
             </Modal.Header>
@@ -181,6 +184,9 @@ function App() {
                 {" "}<q>work out your own salvation with fear and trembling</q>, because at any moment if your brain wents wrong,
                 you can lose salvation of some period of your life. Test and renew your salvation often, don't forget about the grace.
                 If you, for example, don't feed a hungry person, it is a sign that you lost salvation for this period of your life.</p>
+              <p><a href="/donate-to-victor-portons-foundation/">Donate for Bible study</a> (tax-deductible) by the man who received
+                the final revelation on whether salvation can be lost and whom God showed in a nightdream that he will preach in
+                {" "}<a className="in-dialog-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a>.</p>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose2}>
