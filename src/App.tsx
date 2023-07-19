@@ -74,7 +74,7 @@ function App() {
         <div className="questions">
         <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
-          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate for Bible study</a> (tax-deductible) by a man whom God showed in a nightdream that he will preach in
+          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate for Bible study</a> (tax-deductible) by the man whom God showed in a nightdream that he will preach in
             {" "}<a className="my-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a></small></p>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
