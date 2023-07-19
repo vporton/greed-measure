@@ -80,7 +80,8 @@ function App() {
             mathematicians do not want to build new math based on ordered semicategory actions.</p>
           <p>Wrong publication of mathematics is essentially making mankind stupid, as it makes people unable
             to use and develop further innovative thinking methods.</p>
-          <p><small>(<a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">Donate for inclusive scientific publishing.</a>)</small></p>
+          <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
+            Donate for inclusive scientific publishing.</a> 🡸</small></p>
           <p><label><input type="checkbox" checked={osa} onChange={e => setOsa(e.target.checked)}/> You are willing to donate for (re)publishing ordered semicategory actions</label></p>
           <p><label><input type="checkbox" checked={neighborhood} onChange={e => setNeighborhood(e.target.checked)}/> You donate to your local club or neighborhood projects</label></p>
           <p><label><input type="checkbox" checked={wantMoney} onChange={e => setWantMoney(e.target.checked)}/> To want money is bad</label></p>
