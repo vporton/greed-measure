@@ -82,7 +82,7 @@ function App() {
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
           <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
-            Donate for inclusive scientific publishing</a> (tax-deductible)</small></p>
+            Donate for inclusive scientific publishing and for poor scientists</a> (tax-deductible)</small></p>
           <p>Around 1880 there were discovered abstract math objects called <q>groups</q>{" "}
             (this is a math term and is unrelated to usage of the word <q>group</q> in ordinary English).
             During 20th-21th century the importance of groups was on rise. Now most of quantitative sciences rely
