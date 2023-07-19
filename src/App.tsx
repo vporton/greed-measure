@@ -171,17 +171,16 @@ function App() {
               <p>Traditional Christianity teaches that the mind of a human is located in the soul.
                 But we know from science that mind of a human is located in the brain.
                 Even the Bible itself confirms it: (1Tim. 4:2) <q>having their conscience seared with a hot iron.</q>{" "}
-                This means that hot iron touching human head may damage conscience in the brain. Accordingly the Bible,
-                conscience belongs to the brain.
+                This means that hot iron touching human head (as Romans did with their slaves)
+                may damage conscience in the brain. Accordingly the Bible, conscience belongs to the brain.
                 Soul is, apparently, a warranty or insurance that God will restore a human in sound mind on the resurrection of dead.
                 So, just because of a hot iron touching your head, you can lose conscience and... lose salvation?
                 No, we have a warranty from God, that whatever happends with our body (and the brain), He will resurrect us.
                 But if your brain behaves badly, we can lose a part of our memory in resurrection of the dead
                 (lose salvation for a certain period of the life). Therefore, (Phil. 2:12)
-                {" "}<q>work out your own salvation with fear and trembling</q>, because at any moment if our brain wents wrong,
-                we can lose salvation of some period of your life. Renew your salvation often, don't forget about the grace.
-                If you, for example, don't feed a hungry person, it is a sign that you lost salvation for this period of your life.
-              </p>
+                {" "}<q>work out your own salvation with fear and trembling</q>, because at any moment if your brain wents wrong,
+                you can lose salvation of some period of your life. Renew your salvation often, don't forget about the grace.
+                If you, for example, don't feed a hungry person, it is a sign that you lost salvation for this period of your life.</p>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose2}>
