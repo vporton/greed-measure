@@ -179,7 +179,7 @@ function App() {
                 But if your brain behaves badly, we can lose a part of our memory in resurrection of the dead
                 (lose salvation for a certain period of the life). Therefore, (Phil. 2:12)
                 {" "}<q>work out your own salvation with fear and trembling</q>, because at any moment if your brain wents wrong,
-                you can lose salvation of some period of your life. Renew your salvation often, don't forget about the grace.
+                you can lose salvation of some period of your life. Test and renew your salvation often, don't forget about the grace.
                 If you, for example, don't feed a hungry person, it is a sign that you lost salvation for this period of your life.</p>
             </Modal.Body>
             <Modal.Footer>
