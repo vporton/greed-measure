@@ -95,7 +95,7 @@ function App() {
               <p style={{display: osa ? 'none' : 'block'}}>
                 You are likely to be unsaved: After all, your heart is not moved by billions of people that remain stupid
                 without proper science.
-                {" "}<em>Ordered semigroup actions are like as if they were specifically for testing greed (do you want to use your money
+                {" "}<em>Ordered semigroup actions discovery is like as if they were specifically for testing greed (do you want to use your money
                 to change the world or no): a rather small sum of money can very much change the entire world.</em>{" "}
                 Now (either for the first time, or refreshing your first salvation prayer)
                 make the decision that with help of God you will choose to do good deeds. Tell God that you are unable
