@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Lightbox from 'bs5-lightbox';
 
 function App() {
   const [show, setShow] = useState(false);
@@ -56,6 +57,11 @@ function App() {
     setShow(true);
   };
 
+  useEffect(
+    () => document.querySelectorAll('.my-lightbox-toggle').forEach(el => el.addEventListener('click', Lightbox.initialize)),
+    [],
+  )
+
   return (
     <>
       <div className="container">
@@ -65,10 +71,12 @@ function App() {
         <div className="questions">
         <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
+          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate for Bible study</a> (tax-deductible) by a man whom God showed in a nightdream that he will preach in
+            {" "}<a className="my-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a></small></p>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
           <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
-            Donate for inclusive scientific publishing.</a></small></p>
+            Donate for inclusive scientific publishing.</a> (tax-deductible)</small></p>
           <p>Around 1880 there were discovered abstract math objects called <q>groups</q>{" "}
             (this is a math term and is unrelated to usage of the word <q>group</q> in ordinary English).
             During 20th-21th century the importance of groups was on rise. Now most of quantitative sciences rely
