@@ -67,6 +67,8 @@ function App() {
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
+          <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
+            Donate for inclusive scientific publishing.</a></small></p>
           <p>Around 1880 there were discovered abstract math objects called <q>groups</q>{" "}
             (this is a math term and is unrelated to usage of the word <q>group</q> in ordinary English).
             During 20th-21th century the importance of groups was on rise. Now most of quantitative sciences rely
@@ -80,8 +82,6 @@ function App() {
             mathematicians do not want to build new math based on ordered semicategory actions.</p>
           <p>Wrong publication of mathematics is essentially making mankind stupid, as it makes people unable
             to use and develop further innovative thinking methods.</p>
-          <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
-            Donate for inclusive scientific publishing.</a> 🡸</small></p>
           <p><label><input type="checkbox" checked={osa} onChange={e => setOsa(e.target.checked)}/> You are willing to donate for (re)publishing ordered semicategory actions</label></p>
           <p><label><input type="checkbox" checked={neighborhood} onChange={e => setNeighborhood(e.target.checked)}/> You donate to your local club or neighborhood projects</label></p>
           <p><label><input type="checkbox" checked={wantMoney} onChange={e => setWantMoney(e.target.checked)}/> To want money is bad</label></p>
