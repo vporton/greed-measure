@@ -7,6 +7,7 @@ import Lightbox from 'bs5-lightbox';
 
 function App() {
   const [show, setShow] = useState(false);
+  const [show2, setShow2] = useState(false);
   const [results, setResults] = useState("");
 
   const [localChurch, setLocalChurch] = useState(false);
@@ -52,6 +53,7 @@ function App() {
   }
   
   const handleClose = () => setShow(false);
+  const handleClose2 = () => setShow2(false);
   const handleShow = () => {
     setResults(testResults());
     setShow(true);
@@ -68,6 +70,7 @@ function App() {
         <h1>Test for Greed and Salvation</h1>
         <p>Pass a short (2-3 min) test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
+        <p><Button onClick={() => setShow2(true)}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
         <div className="questions">
         <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
@@ -153,6 +156,35 @@ function App() {
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+          <Modal show={show2} onHide={handleClose2}>
+            <Modal.Header closeButton>
+              <Modal.Title>Once Saved, Always Saved?</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <p>There is the teaching <q>Once saved, always saved.</q> meaning that whatever happens a human cannot lose salvation in Christ.
+                Is it true?</p>
+              <p>Yes and no.</p>
+              <p>Traditional Christianity teaches that the mind of a human is located in the soul.
+                But we know from science that mind of a human is located in the brain.
+                Even the Bible itself confirms it: (1Tim. 4:2) <q>having their conscience seared with a hot iron.</q>{" "}
+                This means that hot iron touching human head may damage conscience in the brain. Accordingly the Bible,
+                conscience belongs to the brain.
+                Soul is, apparently, a warranty or insurance that God will restore a human in sound mind on the resurrection of dead.
+                So, just because of a hot iron touching your head, you can lose conscience and... lose salvation?
+                No, we have a warranty from God, that whatever happends with our body (and the brain), He will resurrect us.
+                But if your brain behaves badly, we can lose a part of our memory in resurrection of the dead
+                (lose salvation for a certain period of the life). Therefore, (Phil. 2:12)
+                {" "}<q>work out your own salvation with fear and trembling</q>, because at any moment if our brain wents wrong,
+                we can lose salvation of some period of your life. Renew your salvation often, don't forget about the grace.
+                If you, for example, don't feed a hungry person, it is a sign that you lost salvation for this period of your life.
+              </p>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose2}>
                 Close
               </Button>
             </Modal.Footer>
