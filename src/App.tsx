@@ -66,7 +66,7 @@ function App() {
     <>
       <div className="container">
         <h1>Test for Greed and Salvation</h1>
-        <p>Pass the test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
+        <p>Pass a short (2-3 min) test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
         <div className="questions">
         <h2 style={{fontStyle: 'italic'}}>Questions</h2>
