@@ -143,6 +143,12 @@ function App() {
               <p>Jesus said (Mt. 25:45-46) <q>Verily I say to you, Inasmuch as ye did it not to one of the smallest of these, you did it not to me...
                 And these shall go away into everlasting punishment: but the righteous into life eternal.</q>{" "}
                 and our charity is one of the smallest: as of Jul 2023, only one person works here. That's a reason to help.</p>
+              <p><em>(a quote from <a target='_blank' href="https://after-gospel.vporton.name/2022/09/06/stages/" rel="noreferrer">this page</a>)</em> For a long time I tried to bless my enemies, but repeatedly when I tried to pronounce a blessing, I noticed that the phrase that I was
+                going to pronounce turned out to be a curse. I found no blessing for these who don’t participate in publishing my math research.
+                You may be a drunker, beat your children, liar, aggressive, etc. – I could pray for you. But if you refuse to participate
+                (for example, by your money) in publishing ordered semigroup actions and discontinuous analysis – I can’t find mercy for you,
+                because you choose not to support the entire mankind following instead your personal interests (that is consider yourself more
+                important than 10 billion people).</p>
               <p style={{display: wantMoney ? 'block' : 'none'}}>
                 If you think that to want money is bad, then you are greedy, because you don't understand
                 1. that one may want money to help others; 2. that money are not only for superfluous luxuries but also
