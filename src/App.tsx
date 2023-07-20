@@ -152,8 +152,12 @@ function App() {
               <p style={{display: wantMoney ? 'block' : 'none'}}>
                 If you think that to want money is bad, then you are greedy, because you don't understand
                 1. that one may want money to help others; 2. that money are not only for superfluous luxuries but also
-                for good things such as food.
-              </p>
+                for good things such as food.</p>
+              <p>Jesus died for sins of the <strong>whole</strong> world that is connected world, not as they usually translate it
+                {" "}<q>entire</q> world. You need be connected to the whole world, not isolated in your small part, for the sacrifice
+                of Jesus to be effective for you.
+                If you <a href="/donate-to-victor-portons-foundation/">donate</a> for ordered semicategory actions, you will be
+                connected to the entire world and therefore sacrifice of Jesus will work in your life.</p>
               <h2>Related Links</h2>
               <ul>
                 <li>Review heresies popular in modern church:
