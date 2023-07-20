@@ -6,8 +6,8 @@ import Modal from 'react-bootstrap/Modal';
 import Lightbox from 'bs5-lightbox';
 
 function App() {
-  const [show, setShow] = useState(false);
-  const [show2, setShow2] = useState(false);
+  const [testResultsView, setShowTestResultsView] = useState(false);
+  const [onceSavedAlwaysSaved, setOnceSavedAlwaysSaved] = useState(false);
   const [results, setResults] = useState("");
 
   const [localChurch, setLocalChurch] = useState(false);
@@ -52,14 +52,17 @@ function App() {
     return results;
   }
   
-  const handleClose = () => setShow(false);
-  const handleClose2 = () => setShow2(false);
+  const handleCloseTestResults = () => setShowTestResultsView(false);
+  const handleCloseOnceSavedAlwaysSaved = () => setOnceSavedAlwaysSaved(false);
   const handleShow = () => {
     setResults(testResults());
-    setShow(true);
+    setShowTestResultsView(true);
   };
-  const handleShow2 = () => {
-    setShow2(true);
+  const handleOnceSavedAlwaysSaved = () => {
+    setOnceSavedAlwaysSaved(true);
+    if (process.env.NODE_ENV === 'production') {
+      (window as any).gtag('event', 'once_saved_always_saved_click', {});
+    }
   };
 
   useEffect(
@@ -73,7 +76,7 @@ function App() {
         <h1>Test for Greed and Salvation</h1>
         <p>Pass a short (2-3 min) test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
-        <p><Button onClick={handleShow2}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
+        <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
         <div className="questions">
         <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
@@ -102,7 +105,7 @@ function App() {
           <p><label><input type="checkbox" checked={wantMoney} onChange={e => setWantMoney(e.target.checked)}/> To want money is bad</label></p>
           <p style={{marginBottom: '4px'}}><Button onClick={handleShow}>Finish the test</Button></p>
 
-          <Modal show={show} onHide={handleClose}>
+          <Modal show={testResultsView} onHide={handleCloseTestResults}>
             <Modal.Header closeButton>
               <Modal.Title>Test Results</Modal.Title>
             </Modal.Header>
@@ -169,12 +172,12 @@ function App() {
               </ul>
             </Modal.Body>
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleCloseTestResults}>
                 Close
               </Button>
             </Modal.Footer>
           </Modal>
-          <Modal show={show2} onHide={handleClose2} onShow={() => document.querySelectorAll('.in-dialog-lightbox-toggle').forEach(el => el.addEventListener('click', Lightbox.initialize))}>
+          <Modal show={onceSavedAlwaysSaved} onHide={handleCloseOnceSavedAlwaysSaved} onShow={() => document.querySelectorAll('.in-dialog-lightbox-toggle').forEach(el => el.addEventListener('click', Lightbox.initialize))}>
             <Modal.Header closeButton>
               <Modal.Title>Once Saved, Always Saved?</Modal.Title>
             </Modal.Header>
@@ -211,7 +214,7 @@ function App() {
                 be effective for you. Pass the test to understand how to be connected to the whole world, not your small part.</p>
             </Modal.Body>
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose2}>
+              <Button variant="secondary" onClick={handleCloseOnceSavedAlwaysSaved}>
                 Close
               </Button>
             </Modal.Footer>
