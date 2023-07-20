@@ -208,8 +208,8 @@ function App() {
                 Among people, accordingly words of Jesus, going to eternal fire is even Eduard Grabovenko, the main Russian Pentecostal.
                 I asked for food even in Internet Bible forum. So, at least hundreds, more likely thousands, people sure in their
                 salvation are going to eternal fire. Nobody of them tried to make peace with me. Are you much different than them?
-                (Phil. 2:12) <q>work out your own salvation with fear and trembling</q>.
-                Be in peace, that is be connected, because Jesus died for sins of the <strong>whole</strong> world that is connected
+                (Phil. 2:12) <q>work out your own salvation with fear and trembling</q>.</p>
+              <p>Be in peace, that is be connected, because Jesus died for sins of the <strong>whole</strong> world that is connected
                 world, not as they usually translate it <q>entire</q> world. You need to be connected for the sacrifice of Jesus to
                 be effective for you. Pass the test to understand how to be connected to the whole world, not your small part.</p>
             </Modal.Body>
