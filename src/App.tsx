@@ -195,6 +195,16 @@ function App() {
                 {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man who received
                 the final revelation on whether salvation can be lost and to whom God showed in a nightdream that he will preach in
                 {" "}<a className="in-dialog-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a>.</p>
+              <p>I am the one man not fed (Mt. 25:42): when I was young, I suffered hunger during several years (because the mother hated
+                me for Gospel), despite I visited several churches and asked for food.
+                Words of Jesus about them who don't feed young people are very clear: <q>eternal fire</q> (Mat. 25:41).
+                Among people, accordingly words of Jesus, going to eternal fire is even Eduard Grabovenko, the main Russian Pentecostal.
+                I asked for food even in Internet Bible forum. So, at least hundreds, more likely thousands, people sure in their
+                salvation are going to eternal fire. Nobody of them tried to make peace with me. Are you much different than them?
+                (Phil. 2:12) <q>work out your own salvation with fear and trembling</q>.
+                Be in peace, that is be connected, because Jesus died for sins of the <strong>whole</strong> world that is connected
+                world, not as they usually translate it <q>entire</q> world. You need to be connected for the sacrifice of Jesus to
+                be effective for you. Pass the test to understand how to be connected to the whole world, not your small part.</p>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose2}>
