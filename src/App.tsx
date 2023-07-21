@@ -87,6 +87,13 @@ function App() {
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
         <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
         <p><Button onClick={() => setShowTestView(true)} style={{display: !showTestView && abTestIsOnButton ? 'block' : 'none'}}>Take the Test!</Button></p>
+        <div style={{display: showTestView ? 'none' : 'block'}}>
+          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
+            {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man to whom God showed in a nightdream that he will preach in
+            {" "}<a className="my-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a></small></p>
+          <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
+            Donate for inclusive scientific publishing and for poor scientists</a> (tax-deductible)</small></p>
+        </div>
         <div className="questions" style={{display: showTestView ? 'block' : 'none'}}>
           <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
