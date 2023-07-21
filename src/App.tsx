@@ -6,6 +6,14 @@ import Modal from 'react-bootstrap/Modal';
 import Lightbox from 'bs5-lightbox';
 
 function App() {
+  const queryParameters = new URLSearchParams(window.location.search);
+  const abTest = queryParameters.get("abTest") === '1';
+  const abTestIsOnButton = abTest ? Math.random() >= 0.5 : queryParameters.get("showTest") === 'onButton';
+  if (process.env.NODE_ENV === 'production' && abTest) {
+    (window as any).gtag('event', abTestIsOnButton ? 'ab_test_greed_survey_onbutton' : 'ab_test_greed_survey_immediate', {})
+  }
+
+  const [showTestView, setShowTestView] = useState(!abTestIsOnButton);
   const [testResultsView, setShowTestResultsView] = useState(false);
   const [onceSavedAlwaysSaved, setOnceSavedAlwaysSaved] = useState(false);
   const [results, setResults] = useState("");
@@ -78,7 +86,8 @@ function App() {
           Everybody who passes the test receives a free e-book ($14.22 value).</p>
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
         <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
-        <div className="questions">
+        <p><Button onClick={() => setShowTestView(true)} style={{display: !showTestView && abTestIsOnButton ? 'block' : 'none'}}>Take the Test!</Button></p>
+        <div className="questions" style={{display: showTestView ? 'block' : 'none'}}>
           <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
           <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
