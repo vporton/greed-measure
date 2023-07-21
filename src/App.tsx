@@ -100,7 +100,7 @@ function App() {
         <p>Pass a short (2-3 min) test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.
           Everybody who passes the test receives a free e-book ($14.22 value).</p>
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
-        <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
+        <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button><br/>(Can you lose salvation?)</p>
         <p><Button onClick={() => setShowTestView(true)} style={{display: !showTestView && abTestIsOnButton ? 'block' : 'none'}}>Take the Test!</Button></p>
         <div style={{display: showTestView ? 'none' : 'block'}}>
           <DonateForBibleStudy/>
