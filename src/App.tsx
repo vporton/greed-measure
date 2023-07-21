@@ -86,6 +86,13 @@ function App() {
     );
   }
 
+  function DonateForBibleStudyWiki() {
+    return (
+      <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
+        {" "}<a target='_blank' href="https://nt.withoutvowels.org" rel="noreferrer">Bible-study wiki</a> on the same engine as Wikipedia</small></p>
+    );
+  }
+
   function DonateForScience() {
     return (
       <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
@@ -103,12 +110,14 @@ function App() {
         <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button><br/>(Can you lose salvation?)</p>
         <p><Button onClick={() => setShowTestView(true)} style={{display: !showTestView && abTestIsOnButton ? 'block' : 'none'}}>Take the Test!</Button></p>
         <div style={{display: showTestView ? 'none' : 'block'}}>
+          <DonateForBibleStudyWiki/>
           <DonateForBibleStudy/>
           <DonateForScience/>
         </div>
         <div className="questions" style={{display: showTestView ? 'block' : 'none'}}>
           <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
+          <DonateForBibleStudyWiki/>
           <DonateForBibleStudy/>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
@@ -136,7 +145,7 @@ function App() {
               <Modal.Title>Test Results</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              <p><DonateForBibleStudy/></p>
+              <DonateForBibleStudy/>
               <p>{results}</p>
               <p style={{display: osa ? 'none' : 'block'}}>
                 You are likely to be unsaved: After all, your heart is not moved by billions of people that remain stupid
