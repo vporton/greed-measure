@@ -79,7 +79,7 @@ function App() {
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
         <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
         <div className="questions">
-        <h2 style={{fontStyle: 'italic'}}>Questions</h2>
+          <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
           <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
             {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man to whom God showed in a nightdream that he will preach in
