@@ -8,7 +8,7 @@ import Lightbox from 'bs5-lightbox';
 function App() {
   const queryParameters = new URLSearchParams(window.location.search);
   const abTest = queryParameters.get("abTest") === '1';
-  const abTestIsOnButton = abTest ? Math.random() >= 0.5 : queryParameters.get("showTest") === 'onButton';
+  const abTestIsOnButton = abTest ? Math.random() >= 0.5 : queryParameters.get("showTest") === 'button';
   if (process.env.NODE_ENV === 'production' && abTest) {
     (window as any).gtag('event', abTestIsOnButton ? 'ab_test_greed_survey_onbutton' : 'ab_test_greed_survey_immediate', {})
   }
