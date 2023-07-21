@@ -74,7 +74,8 @@ function App() {
     <>
       <div className="container">
         <h1>Test for Greed and Salvation</h1>
-        <p>Pass a short (2-3 min) test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.</p>
+        <p>Pass a short (2-3 min) test for greed. Maybe, you are going to the Hell? Even if you sure you are not, pass the test anyway.
+          Everybody who passes the test receives a free e-book ($14.22 value).</p>
         <p>(2 Corinthians 13:5): <q>Examine yourselves, to see whether you are in the faith. Test yourselves.</q></p>
         <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
         <div className="questions">
@@ -161,6 +162,10 @@ function App() {
                 of Jesus to be effective for you.
                 If you <a href="/donate-to-victor-portons-foundation/">donate</a> for ordered semicategory actions, you will be
                 connected to the entire world and therefore sacrifice of Jesus will work in your life.</p>
+              <p><em>As promised, coupon code for a
+                {" "}<a target="_blank" href="https://www.smashwords.com/books/view/600012" rel="noreferrer">free e-book</a>
+                {" "}<q>New Testament Commentary by a Mathematician</q>:
+                NF35K</em></p>
               <h2>Related Links</h2>
               <ul>
                 <li>Review heresies popular in modern church:
