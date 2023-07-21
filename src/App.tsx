@@ -136,6 +136,7 @@ function App() {
               <Modal.Title>Test Results</Modal.Title>
             </Modal.Header>
             <Modal.Body>
+              <p><DonateForBibleStudy/></p>
               <p>{results}</p>
               <p style={{display: osa ? 'none' : 'block'}}>
                 You are likely to be unsaved: After all, your heart is not moved by billions of people that remain stupid
