@@ -78,6 +78,21 @@ function App() {
     [],
   )
 
+  function DonateForBibleStudy() {
+    return (
+      <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
+        {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man to whom God showed in a nightdream that he will preach in
+        {" "}<a className="my-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a></small></p>
+    );
+  }
+
+  function DonateForScience() {
+    return (
+      <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
+        Donate for inclusive scientific publishing and for poor scientists</a> (tax-deductible)</small></p>
+    );
+  }
+
   return (
     <>
       <div className="container">
@@ -88,22 +103,16 @@ function App() {
         <p><Button onClick={handleOnceSavedAlwaysSaved}>Once saved, always saved?</Button> (Can you lose salvation?)</p>
         <p><Button onClick={() => setShowTestView(true)} style={{display: !showTestView && abTestIsOnButton ? 'block' : 'none'}}>Take the Test!</Button></p>
         <div style={{display: showTestView ? 'none' : 'block'}}>
-          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
-            {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man to whom God showed in a nightdream that he will preach in
-            {" "}<a className="my-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a></small></p>
-          <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
-            Donate for inclusive scientific publishing and for poor scientists</a> (tax-deductible)</small></p>
+          <DonateForBibleStudy/>
+          <DonateForScience/>
         </div>
         <div className="questions" style={{display: showTestView ? 'block' : 'none'}}>
           <h2 style={{fontStyle: 'italic'}}>Questions</h2>
           <p><label><input type="checkbox" checked={localChurch} onChange={e => setLocalChurch(e.target.checked)}/> You donate to your local church</label></p>
-          <p><small>➔ <a href="/donate-to-victor-portons-foundation/">Donate</a> (tax-deductible) for
-            {" "}<a href="https://after-gospel.vporton.name/bible-study-meetings-lead-by-man-of-super-revelations-victor-porton/">Bible study</a> by the man to whom God showed in a nightdream that he will preach in
-            {" "}<a className="my-lightbox-toggle" href="https://after-gospel.vporton.name/wp-content/uploads/sites/8/2022/05/13-1-2048x1152.jpg">10 buildings each for 20000 seats</a></small></p>
+          <DonateForBibleStudy/>
           <p><label><input type="checkbox" checked={bigMinistry} onChange={e => setBigMinistry(e.target.checked)}/> You donate to a world-wide or a national Christian ministry</label></p>
           <p><label><input type="checkbox" checked={hungry} onChange={e => setHungry(e.target.checked)}/> You donate to hungry people</label></p>
-          <p><small>➔ <a target='_blank' href="https://after-gospel.vporton.name/donate-to-victor-portons-foundation/" rel="noreferrer">
-            Donate for inclusive scientific publishing and for poor scientists</a> (tax-deductible)</small></p>
+          <DonateForScience/>
           <p>Around 1880 there were discovered abstract math objects called <q>groups</q>{" "}
             (this is a math term and is unrelated to usage of the word <q>group</q> in ordinary English).
             During 20th-21th century the importance of groups was on rise. Now most of quantitative sciences rely
